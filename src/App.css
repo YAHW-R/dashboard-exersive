@@ -1,0 +1,190 @@
+.dashboard-nav {
+    height: 10vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 40px;
+    align-items: center;
+
+    background-color: #313131;
+
+}
+
+.dashboard-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.search-input {
+    min-width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 3px var(--background-primary);
+    background-color: #313131;
+}
+
+
+/* card */
+.card-container {
+    height: 20vh;
+    width: calc(100% - 40px);
+
+    margin-inline: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 60px;
+
+    text-align: start;
+    background-color: var(--background-primary);
+
+    border: solid 5px var(--background-secondary);
+    border-radius: 10px;
+
+    margin: 10px;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1rem;
+    margin-inline: 3px;
+}
+
+.card-principal-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-inline: 3px;
+}
+
+.card-description {
+    font-size: .7rem;
+    font-weight: lighter;
+    margin-inline: 3px;
+}
+
+/* Table styles */
+
+.expenses-container {
+    height: 40vh;
+}
+
+.table-container {
+    height: 85%;
+    overflow-y: auto;
+
+    border-radius: 8px;
+}
+
+
+.table-title {
+    display: flex;
+    align-items: center;
+
+    height: 15%;
+
+    font-size: 1.6rem;
+
+    margin-left: 20px;
+    margin-block: 0;
+}
+
+.custom-table {
+    width: calc(100% - 40px);
+
+    margin-inline: auto;
+
+    border-collapse: collapse;
+    border-radius: 8px;
+
+    background-color: var(--background-secondary);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    overflow: hidden;
+}
+
+.custom-table thead {
+    background-color: var(--background-primary);
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: var(--background-primary);
+}
+
+.custom-table tbody tr:hover {
+    background-color: var(--secondary);
+    transition: background-color 0.2s ease;
+}
+
+/* Metrics */
+
+.metric-title {
+    font-size: 1.6rem;
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.metric-description {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.metric-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: calc(100% - 40px);
+    height: auto;
+    height: 30vh;
+
+    border-radius: 10px;
+    margin-inline: auto;
+
+    background-color: var(--background-primary);
+}
+
+#span {
+    text-align: center;
+}
+
+/* Loaded component */
+
+.loaded {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 5px;
+    border-top-color: var(--background-primary);
+
+    margin-inline: auto;
+    margin-block: 40px;
+
+    animation: loaded-animation 1s linear infinite;
+}
+
+@keyframes loaded-animation {
+    100% {
+        transform: rotate(360deg);
+    }
+}

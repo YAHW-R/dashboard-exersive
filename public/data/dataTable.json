@@ -1,0 +1,86 @@
+[
+    {
+        "date": "2023-10-01",
+        "description": "Netflix Subscription",
+        "category": "Entertainment",
+        "type": "expense",
+        "amount": 15.99
+    },
+    {
+        "date": "2023-10-05",
+        "description": "Payroll Deposit",
+        "category": "Salary",
+        "type": "income",
+        "amount": 2500.00
+    },
+    {
+        "date": "2023-10-07",
+        "description": "Grocery Store",
+        "category": "Food & Dining",
+        "type": "expense",
+        "amount": 85.20
+    },
+    {
+        "date": "2023-10-10",
+        "description": "Electricity Bill",
+        "category": "Utilities",
+        "type": "expense",
+        "amount": 45.00
+    },
+    {
+        "date": "2023-10-12",
+        "description": "Sold Used Items",
+        "category": "Side Income",
+        "type": "income",
+        "amount": 120.50
+    },
+    {
+        "date": "2023-10-15",
+        "description": "Starbucks Coffee",
+        "category": "Food & Dining",
+        "type": "expense",
+        "amount": 6.75
+    },
+    {
+        "date": "2023-10-18",
+        "description": "Gas Station",
+        "category": "Transportation",
+        "type": "expense",
+        "amount": 55.00
+    },
+    {
+        "date": "2023-10-20",
+        "description": "Amazon Purchase (Book)",
+        "category": "Shopping",
+        "type": "expense",
+        "amount": 24.99
+    },
+    {
+        "date": "2023-10-22",
+        "description": "Gym Membership",
+        "category": "Health & Fitness",
+        "type": "expense",
+        "amount": 40.00
+    },
+    {
+        "date": "2023-10-25",
+        "description": "Internet Service",
+        "category": "Utilities",
+        "type": "expense",
+        "amount": 60.00
+    },
+    {
+        "date": "2023-10-28",
+        "description": "Freelance Project Payment",
+        "category": "Work",
+        "type": "income",
+        "amount": 450.00
+    },
+    {
+        "date": "2023-10-30",
+        "description": "Rent Payment",
+        "category": "Housing",
+        "type": "expense",
+        "amount": 1200.00
+    }
+]
